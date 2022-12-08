@@ -1,4 +1,10 @@
 /* Global styles ============= */
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+div {
+  border: 1px solid green;
+}
+
 html,
 body {
   width: 100%;
@@ -6,15 +12,16 @@ body {
 }
 
 body {
-  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: "Muli", "Helvetica", "Arial", "sans-serif";
 }
 
 a {
   color: #fdcc52;
-  transition: all .35s;
+  transition: all 0.35s;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   color: #fcbd20;
 }
 
@@ -35,7 +42,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: "Catamaran", "Helvetica", "Arial", "sans-serif";
   font-weight: 200;
   letter-spacing: 1px;
 }
@@ -52,4 +59,100 @@ section {
 
 section h2 {
   font-size: 50px;
+}
+
+/* Navigation-bar */
+
+.logo {
+  font-family: "Pacifico", cursive;
+  font-size: 28px;
+  text-align: center;
+  align-self: flex-start;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.nav-list ul {
+  gap: 20px;
+}
+
+.nav-list a {
+  color: white;
+}
+
+.masthead {
+  position: relative;
+  width: 100%;
+  padding: 100px;
+  background: url(/assets/images/bg-img.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.header-content {
+  max-width: 500px;
+  margin-bottom: 100px;
+  align-items: center;
+}
+
+.header-content h1 {
+  font-size: 32px;
+}
+
+.device-container {
+  max-width: 400px;
+  margin: 0px auto;
+}
+
+.screen {
+  border-radius: 5px;
+}
+
+.btn {
+  border-radius: 25px;
+}
+
+/* Download Section */
+
+.download {
+  background-color: #fdc949;
+}
+
+.download h2 {
+  font-size: 50px;
+  margin-top: 0;
+}
+
+.dl-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.download .badges .badge-link {
+  margin-bottom: 25px;
+}
+
+.download .badges .badge-link img {
+  height: 60px;
+}
+
+/* Testimonials sections */
+
+.testimonial-item img {
+  max-width: 12rem;
+}
+
+/* CTA Section */
+
+#signup {
+  background: url(/assets/images/SF.svg);
+}
+
+/* Contact Section*/
+
+.contact-section {
+  background-color: #313131;
 }
