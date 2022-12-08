@@ -1,9 +1,9 @@
 /* Global styles ============= */
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 
-div {
+/* div {
   border: 1px solid green;
-}
+} */
 
 html,
 body {
@@ -154,5 +154,11 @@ section h2 {
 /* Contact Section*/
 
 .contact-section {
+  background-color: black;
+}
+
+footer {
   background-color: #313131;
+  color: white;
+  text-align: center;
 }
